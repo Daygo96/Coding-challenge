@@ -1,0 +1,75 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    /*dopo aver aggiunto l'immagine aggiungo background cover per adattare l'immagine alla pagina*/ 
+}
+
+#home {
+   background-color: rgba(0, 0, 0, 0.5);
+   /*SERVE PER CREARE LA TRASPARENZA*/
+    width: auto;
+    height: auto;
+    border-radius: 7px;
+    margin: 100px;
+    padding: 50px; 
+  }
+
+  .intestazione{
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+  }
+
+  #titolo{
+   display: inline-block;
+  }
+
+
+  /*ridimensiono il logo*/
+  .logo{
+    width: 250px;
+  }
+
+  /*ingrandisco dimensione carattere e cambio colore*/
+  .logo_text{
+    font-size: 30px;
+    color:#83f52c;
+  }
+
+  nav{
+    text-align: center;
+    padding: 8px;
+    background-color: #83f52c;
+    margin: 500;
+    padding: 10px;
+ }
+
+
+/*ingrandico il carattere identificativo del mezzo*/
+ .scelta_mezzo{
+    font-size: 20px;
+ }
+
+ /*imposto le caratteristiche delle barre di carimento*/
+ .specifiche{
+    height: 27px;
+    border-radius: 7px;
+ }
+
+ .caricamento1{
+    background-color: orange;
+    width: 300px;
+ }
+
+ .caricamento2{
+    background-color: green;
+    width: 500px;
+ }
+
+ .caricamento3{
+    background-color:red;
+    width: 100px;
+ }
